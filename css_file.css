@@ -1,0 +1,152 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+#holder {
+    position: fixed;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    transition: background 0.5s;
+}
+
+.Game_over {
+    transition: max-height 0.5s;
+    max-height: 0;
+    visibility: hidden;
+    position: fixed;
+    left: 140px;
+    top: 120px;
+    width: 230px;
+    height: 310px;
+    background: linear-gradient(rgb(21, 251, 255), blue);
+    border: solid black 2px;
+    z-index: 100;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 5px 5px 7px 1px rgba(0, 0, 0, 0.516);
+    overflow: hidden;
+}
+
+canvas {
+    z-index: 0;
+    box-shadow: 5px 5px 7px 1px rgba(0, 0, 0, 0.516);
+    position: absolute;
+    border: black 4px solid;
+    top: 10px;
+    left: 20px;
+
+}
+
+.p {
+    position: absolute;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 10px;
+    font-family: cursive;
+}
+
+.one {
+    position : absolute;
+    left: 540px;
+    top: 140px;
+}
+
+.two {
+    position : absolute;
+    left: 540px;
+    top: 190px;
+}
+
+.three {
+    position : absolute;
+    left: 540px;
+    top: 250px;
+}
+
+
+#g_o {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    top: 40px;
+    font-family: cursive;
+    border-radius: 29px;
+    border: solid black 2px;
+    padding: 0 10px 0 10px;
+    margin-left: -36px;
+    box-shadow: 5px 5px 7px 1px rgba(0, 0, 0, 0.516);
+}
+
+span {
+    position: absolute;
+    left: 20px;
+    padding-top: 100px;
+    font-family: cursive;
+}
+
+#cu_be_sc {
+    margin-top: 10px;
+}
+
+#level_ach {
+    margin-top: 20px;
+}
+
+.together {
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#retry {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    border: 2px solid black;
+    width: 130px;
+    font-size: 20px;
+    background: yellow;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 7px 1px rgba(0, 0, 0, 0.516);
+}
+
+#retry:hover {
+    background: rgb(255, 255, 97);
+}
+#pause{
+    position: absolute;
+    left: 540px;
+    top: 10px;
+    z-index: 300;
+    width: 60px;
+    height: 60px;
+}
+#select{
+    z-index: 300;
+    position: absolute;
+    left: 592px;
+    top: 100px;
+}
+#sel{
+    position:absolute;
+    margin-top: -2px;
+    left: 540px;
+}
+#l1{
+    color:blue;
+}
+#l2{
+    color: rgb(43, 255, 93);
+}
+#l3{
+    color:rgb(255, 187, 0);
+}
+#l4{
+    color: rgb(255, 115, 0);
+}
+#l5{
+    color: red;
+}
