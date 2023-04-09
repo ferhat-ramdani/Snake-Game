@@ -1,0 +1,59 @@
+body{
+    position: relative;
+    height : 100vh;
+    padding : 0;
+    margin : 0;
+}
+.game{
+    width : 518px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 7px;
+}
+.header{
+    background-color: blue;
+    padding: 20px;
+    color:rgb(93, 253, 127);
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+    border-radius: 7px;
+    font-weight: bolder;
+    font-family: 'Press Start 2P', 'Pixel Emulator', cursive;
+}
+.snake-icon{
+    margin: 10px;
+}
+.snake-icon.left{
+    transform: scaleX(-1);
+}
+
+canvas{
+    width : 500px;
+    height: 500px;
+    background-color: black;
+    border: 10px white solid;
+    border-radius: 7px;
+}
+.menu{
+    color : white;
+    font-size: larger;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    border-radius: 7px;
+}
+label[for]{
+    font-weight: bold;
+}
+span{
+    color: yellow;
+}

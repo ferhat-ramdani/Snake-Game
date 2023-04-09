@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="icon" href="../icons/snake.png" width="100">
+    <link rel="stylesheet" href="style.css">
+    <script src="engine.js"></script>
+    <script src="variables.js"></script>
+</head>
+<body onload="initialize()">
+    <div class="game">
+        <div class="header">
+            <img class="snake-icon left" src="snake.png" alt="snake icon" srcset="">
+            Snake Game
+            <img class="snake-icon right" src="snake.png" alt="snake icon" srcset="">
+        </div>
+        <canvas id="playground"></canvas>
+        <div class="menu">
+            <div class="score">
+                <label for="score">Score:</label>
+                <span id="score">0</span>
+            </div>
+            <div class="best_score">
+                <label for="best-score">Best Score:</label>
+                <span id="best-score">0</span>
+            </div>
+            <div class="level">
+                <label for="level">Level:</label>
+                <span id="level">1</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
